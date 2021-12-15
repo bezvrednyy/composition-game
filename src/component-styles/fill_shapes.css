@@ -1,0 +1,45 @@
+.fill_style
+{
+    display: flex;
+    align-items: center;
+    padding: 0 15%;
+}
+
+.fill_text
+{
+    font: 400 22px Roboto;
+    margin-right: 70px;
+}
+
+.fill_color
+{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    border: 5px solid #818181;
+    border-radius: 5px;
+}
+
+.fill_color:hover
+{
+    cursor: pointer;
+    filter: brightness(110%);
+}
+
+.hue-picker
+{
+    margin: 20px auto;
+}
+
+.color-picker
+{
+    transition: all 500ms ease 0ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.color-picker.active
+{
+    visibility: visible;
+    opacity: 1;
+}

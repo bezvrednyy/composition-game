@@ -1,0 +1,32 @@
+.shapes_header, .style_header
+{
+    font: 400 28px Roboto;
+    text-align: center;
+    color: #818181;
+    margin: 60px 0 20px;
+}
+
+.shapes
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+}
+
+
+.rectangle_style
+{
+    margin-top: 5%;
+    width: 90px;
+}
+
+.triangle_style
+{
+    width: 100px;
+}
+
+.rectangle_style:hover, .triangle_style:hover
+{
+    filter: brightness(90%);
+    cursor: pointer;
+}

@@ -1,0 +1,34 @@
+.rect
+{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+}
+
+.triangle
+{
+    position: absolute;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 120px solid;
+}
+
+.rect.active, .triangle.active
+{
+    outline: 3px dashed #2070fa;
+}
+
+.rect:hover, .triangle:hover, .rect.active:hover, .triangle.active:hover
+{
+    cursor: grab;
+}
+
+.rect.active.moving, .triangle.active.moving
+{
+    outline: 3px dashed #66a8ff;
+}
+
+.rect.active.moving:hover, .triangle.active.moving:hover
+{
+    cursor: grabbing;
+}

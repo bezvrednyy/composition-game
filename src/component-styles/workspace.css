@@ -1,0 +1,10 @@
+.workspace
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EFEFEF;
+    width: 100%;
+    overflow: hidden;
+}
